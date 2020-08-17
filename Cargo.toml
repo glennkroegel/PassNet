@@ -1,0 +1,13 @@
+[package]
+name = "PassNet"
+version = "0.1.0"
+authors = ["glenn <glenn.kroegel@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tch = { path = "/home/glenn/src/tch-rs"}
+tokenizers = "0.10.1"
+anyhow = ""
+fstream = "0.1.2"
